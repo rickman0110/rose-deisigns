@@ -201,18 +201,27 @@
                 </div>
 
                 <div class="contactForm">
-                    <form>
+                    <form action="https://formsubmit.co/219970191@madisonhs.org" method="POST">
+                        <!-- Have a alternative URL for Thank You page -->
+                        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+
+                        <!-- Used to create the subject line on email submission -->
+                        <input type="hidden" name="_subject" value="New Email Woohoo!">
+
+                        <!-- Table Template for the email submission -->
+                        <input type="hidden" name="_template" value="table">
+
                         <div class="row100">
                             <div class="inputBx50">
-                                <input type="text" name="" placeholder="Full Name">
+                                <input type="text" name="Name" placeholder="Full Name" required>
                             </div>
                             <div class="inputBx50">
-                                <input type="text" name="" placeholder="Email Address">
+                                <input type="email" name="Email" placeholder="Email Address" required>
                             </div>
                         </div>
                         <div class="row100">
                             <div class="inputBx100">
-                               <textarea placeholder="Message"></textarea>
+                               <textarea placeholder="Message" name="Message" required></textarea>
                             </div>
                         </div>
                         <div class="row100">
