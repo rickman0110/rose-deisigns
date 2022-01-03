@@ -1,1 +1,1 @@
-# Rose-Design-NYC
+# Rose-Designs-NYC
