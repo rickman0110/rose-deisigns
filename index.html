@@ -207,8 +207,8 @@
                 </div>
 
                 <div class="contactForm">
-                    <form action="https://formsubmit.co/98c1a184095856cc1533284e3b511007" method="POST">
-                        <!-- Have a alternative URL for Thank You page -->
+                    <form action="https://formsubmit.co/98c1a184095856cc1533284e3b511007" method="POST" enctype="multipart/form-data">
+                        <!-- Have a alternative URL for Thank You page --> 
                         <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
 
                         <!-- Used to create the subject line on email submission -->
@@ -230,6 +230,13 @@
                                <textarea placeholder="Message" name="Message" required></textarea>
                             </div>
                         </div>
+
+                        <div>
+                             <input type="file" name="Attachment" id="Attachment" accept="image/png, image/jpeg" hidden="hidden">
+                            <button type="button" id="file-button">Choose a File</button>
+                            <span id="file-text">No File Chosen</span>
+                        </div>
+                       
                         <div class="row100">
                             <div class="inputBx100">
                                 <input type="submit" name="" value="Send">
